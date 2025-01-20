@@ -1,42 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yutik\\source\\repos\\Barang\\",
+  "WorkspaceRootPath": "C:\\Panasonic\\Barang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\migrations\\20250117073830_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:migrations\\20250117073830_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\barang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:barang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\Models\\Section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\models\\cardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:models\\cardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\views\\shared\\_carditem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:views\\shared\\_carditem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|c:\\users\\yutik\\source\\repos\\barang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF1B6876-91F3-4EE6-9E8A-F2E3AB34416A}|Barang.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Panasonic\\Barang\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,23 +47,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Panasonic\\Barang\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-20T02:02:55.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Panasonic\\Barang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T01:25:04.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Panasonic\\Barang\\Views\\Shared\\_Layout.cshtml.css*",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwBQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-20T01:25:02.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Panasonic\\Barang\\wwwroot\\js\\site.js*",
+              "RelativeToolTip": "wwwroot\\js\\site.js*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-20T01:23:21.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Section.cs",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Models\\Section.cs",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\Models\\Section.cs",
               "RelativeDocumentMoniker": "Models\\Section.cs",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Models\\Section.cs",
-              "RelativeToolTip": "Models\\Section.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Panasonic\\Barang\\Models\\Section.cs*",
+              "RelativeToolTip": "Models\\Section.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T07:21:07.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Models\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Panasonic\\Barang\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,35 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-17T04:16:25.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250117073830_init.cs",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Migrations\\20250117073830_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250117073830_init.cs",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Migrations\\20250117073830_init.cs",
-              "RelativeToolTip": "Migrations\\20250117073830_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T07:38:31.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Program.cs",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Program.cs",
+              "ToolTip": "C:\\Panasonic\\Barang\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,47 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Models\\CardViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\CardViewModel.cs",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Models\\CardViewModel.cs",
-              "RelativeToolTip": "Models\\CardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T07:03:46.84Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_CardItem.cshtml",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Views\\Shared\\_CardItem.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_CardItem.cshtml",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Views\\Shared\\_CardItem.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_CardItem.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T07:02:13.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Barang.csproj",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Barang.csproj",
-              "RelativeDocumentMoniker": "Barang.csproj",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Barang.csproj",
-              "RelativeToolTip": "Barang.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-17T06:47:18.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\yutik\\source\\repos\\Barang\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Panasonic\\Barang\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\yutik\\source\\repos\\Barang\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Panasonic\\Barang\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAgwA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

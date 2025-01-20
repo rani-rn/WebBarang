@@ -1,44 +1,77 @@
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-37uokmpla3] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+body[b-37uokmpla3] {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
-a[b-37uokmpla3] {
-  color: #0077cc;
+.sidebar[b-37uokmpla3] {
+    width: 250px;
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
-.btn-primary[b-37uokmpla3] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.sidebar .nav-link[b-37uokmpla3] {
+    color: #333;
 }
 
-.nav-pills .nav-link.active[b-37uokmpla3], .nav-pills .show > .nav-link[b-37uokmpla3] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.sidebar .nav-link:hover[b-37uokmpla3] {
+    background-color: #e9ecef;
+    color: #007bff;
 }
 
-.border-top[b-37uokmpla3] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-37uokmpla3] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-37uokmpla3] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.content[b-37uokmpla3] {
+    margin-left: 250px;
+    flex: 1;
+    padding: 1rem;
+    transition: margin-left 0.3s ease-in-out;
 }
 
-button.accept-policy[b-37uokmpla3] {
-  font-size: 1rem;
-  line-height: inherit;
+.sidebar.collapsed[b-37uokmpla3] {
+    transform: translateX(-250px);
 }
 
+.content.expanded[b-37uokmpla3] {
+    margin-left: 0;
+}
+
+@media (max-width: 768px) {
+    .sidebar[b-37uokmpla3] {
+        transform: translateX(-250px);
+    }
+
+    .sidebar.active[b-37uokmpla3] {
+        transform: translateX(0);
+    }
+
+    .content[b-37uokmpla3] {
+        margin-left: 0;
+    }
+
+    .toggle-btn[b-37uokmpla3] {
+        display: block;
+    }
+}
+
+.toggle-btn[b-37uokmpla3] {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    cursor: pointer;
+}
 .footer[b-37uokmpla3] {
   position: absolute;
   bottom: 0;

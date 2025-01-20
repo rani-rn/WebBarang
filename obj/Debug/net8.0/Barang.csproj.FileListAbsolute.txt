@@ -320,3 +320,4 @@ C:\Panasonic\Barang\obj\Debug\net8.0\refint\Barang.dll
 C:\Panasonic\Barang\obj\Debug\net8.0\Barang.pdb
 C:\Panasonic\Barang\obj\Debug\net8.0\Barang.genruntimeconfig.cache
 C:\Panasonic\Barang\obj\Debug\net8.0\ref\Barang.dll
+C:\Panasonic\Barang\obj\Debug\net8.0\Barang.sourcelink.json
