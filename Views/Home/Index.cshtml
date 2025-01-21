@@ -18,7 +18,24 @@
             ImageAltText = "Gerinda",
             Category = "Tool",
         },
+        new CardViewModel
+        {
+            Title = "Pipa",
+            ImageUrl = "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+            ImageAltText = "Gerinda",
+            Category = "Tool",
+        },
         
     };
 }
 
+<section>
+    <div class="container-fluid">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            @foreach (var card in cards)
+            {
+                @Html.Partial("_CardItem", card)
+            }
+        </div>
+    </div>
+</section>

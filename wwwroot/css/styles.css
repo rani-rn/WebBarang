@@ -39,11 +39,8 @@ h4 {
 }
 
 #sidebar {
-    text-decoration:none;
-    height:100vh;
-    position:fixed;
-    z-index:100;
     max-width: 264px;
+    text-decoration: none;
     min-width: 264px;
     background: var(--bs-dark);
     transition: all 0.35s ease-in-out;
@@ -70,7 +67,6 @@ h4 {
     color: #e9ecef;
     font-size: 1.15rem;
     font-weight: 600;
-    text-decoration:none;
 }
 
 .sidebar-nav {
@@ -83,11 +79,10 @@ h4 {
 .sidebar-header {
     color: #e9ecef;
     font-size: .75rem;
-    padding: 1rem 1.5rem .3rem;
+    padding: 1.5rem 1.5rem .375rem;
 }
 
 a.sidebar-link {
-    text-decoration: none;
     padding: .625rem 1.625rem;
     color: #e9ecef;
     position: relative;
@@ -162,7 +157,6 @@ a.sidebar-link {
 
     .js-sidebar {
         margin-left: -264px;
-        
     }
 
     #sidebar.collapsed {

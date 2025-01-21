@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jNU6zzMe1Ui/j6CEL6qL5hGrqxNQnnWtx/VZBHS4/Z0=",
+  "Hash": "J92IXPPDrwKVNR7Sue8kAXxJajuIpHHIrstHZv9+qaI=",
   "Source": "Barang",
   "BasePath": "_content/Barang",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "9pw6dbh6nv",
-      "Integrity": "80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA=",
+      "Fingerprint": "wbp1es71dy",
+      "Integrity": "hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Panasonic\\Barang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Barang.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "9pw6dbh6nv",
-      "Integrity": "80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA=",
+      "Fingerprint": "wbp1es71dy",
+      "Integrity": "hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Panasonic\\Barang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Barang.bundle.scp.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7xfqw4bk4a",
-      "Integrity": "5cw/aPWL7OGX6mWfLpkfx6wm90eSlm3jyorTn6L1how=",
+      "Fingerprint": "x520k83km5",
+      "Integrity": "CxEGWQZ4fTmMxG+WSeQo6dcyiD/rx7u7tOxll6W8vRU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a8pwda7knj",
-      "Integrity": "ukwoC+Zyc1pFf+auACc7Bs2pqjvDigvecxO4430gtGk=",
+      "Fingerprint": "k7qsr39jw5",
+      "Integrity": "UFVtevAHy6erQxOPN5pE5QvtzEv7nCRHYsiFF3LuAsk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1342,96 +1342,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "Barang.9pw6dbh6nv.bundle.scp.css",
-      "AssetFile": "C:\\Panasonic\\Barang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Barang.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1589"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 03:12:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9pw6dbh6nv"
-        },
-        {
-          "Name": "label",
-          "Value": "Barang.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA="
-        }
-      ]
-    },
-    {
-      "Route": "Barang.9pw6dbh6nv.styles.css",
-      "AssetFile": "C:\\Panasonic\\Barang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Barang.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1589"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 03:12:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9pw6dbh6nv"
-        },
-        {
-          "Name": "label",
-          "Value": "Barang.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA="
-        }
-      ]
-    },
-    {
       "Route": "Barang.bundle.scp.css",
       "AssetFile": "C:\\Panasonic\\Barang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Barang.bundle.scp.css",
       "Selectors": [],
@@ -1442,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1589"
+          "Value": "848"
         },
         {
           "Name": "Content-Type",
@@ -1450,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA=\""
+          "Value": "\"hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 03:12:39 GMT"
+          "Value": "Tue, 21 Jan 2025 01:51:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1464,7 +1374,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA="
+          "Value": "sha256-hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M="
         }
       ]
     },
@@ -1479,7 +1389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1589"
+          "Value": "848"
         },
         {
           "Name": "Content-Type",
@@ -1487,11 +1397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA=\""
+          "Value": "\"hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 03:12:39 GMT"
+          "Value": "Tue, 21 Jan 2025 01:51:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1501,7 +1411,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-80ugEdY1ijeBARtZxbRBm4kj8y1rKNHz0T/HPw4bfMA="
+          "Value": "sha256-hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M="
+        }
+      ]
+    },
+    {
+      "Route": "Barang.wbp1es71dy.bundle.scp.css",
+      "AssetFile": "C:\\Panasonic\\Barang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Barang.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 01:51:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wbp1es71dy"
+        },
+        {
+          "Name": "label",
+          "Value": "Barang.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M="
+        }
+      ]
+    },
+    {
+      "Route": "Barang.wbp1es71dy.styles.css",
+      "AssetFile": "C:\\Panasonic\\Barang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Barang.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 01:51:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wbp1es71dy"
+        },
+        {
+          "Name": "label",
+          "Value": "Barang.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hFuR1P0A4UvbMGJS6NX0JT1+9Z8xt63Zqv1/hjfN4/M="
         }
       ]
     },
@@ -1588,51 +1588,6 @@
       ]
     },
     {
-      "Route": "css/styles.7xfqw4bk4a.css",
-      "AssetFile": "C:\\Panasonic\\Barang\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3647"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5cw/aPWL7OGX6mWfLpkfx6wm90eSlm3jyorTn6L1how=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 04:41:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7xfqw4bk4a"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5cw/aPWL7OGX6mWfLpkfx6wm90eSlm3jyorTn6L1how="
-        }
-      ]
-    },
-    {
       "Route": "css/styles.css",
       "AssetFile": "C:\\Panasonic\\Barang\\wwwroot\\css\\styles.css",
       "Selectors": [],
@@ -1643,7 +1598,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3647"
+          "Value": "3501"
         },
         {
           "Name": "Content-Type",
@@ -1651,11 +1606,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5cw/aPWL7OGX6mWfLpkfx6wm90eSlm3jyorTn6L1how=\""
+          "Value": "\"CxEGWQZ4fTmMxG+WSeQo6dcyiD/rx7u7tOxll6W8vRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 04:41:00 GMT"
+          "Value": "Tue, 21 Jan 2025 02:42:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1665,7 +1620,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5cw/aPWL7OGX6mWfLpkfx6wm90eSlm3jyorTn6L1how="
+          "Value": "sha256-CxEGWQZ4fTmMxG+WSeQo6dcyiD/rx7u7tOxll6W8vRU="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.x520k83km5.css",
+      "AssetFile": "C:\\Panasonic\\Barang\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CxEGWQZ4fTmMxG+WSeQo6dcyiD/rx7u7tOxll6W8vRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 02:42:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x520k83km5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CxEGWQZ4fTmMxG+WSeQo6dcyiD/rx7u7tOxll6W8vRU="
         }
       ]
     },
@@ -1752,51 +1752,6 @@
       ]
     },
     {
-      "Route": "js/site.a8pwda7knj.js",
-      "AssetFile": "C:\\Panasonic\\Barang\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1075"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ukwoC+Zyc1pFf+auACc7Bs2pqjvDigvecxO4430gtGk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 04:16:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a8pwda7knj"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ukwoC+Zyc1pFf+auACc7Bs2pqjvDigvecxO4430gtGk="
-        }
-      ]
-    },
-    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Panasonic\\Barang\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1807,7 +1762,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1075"
+          "Value": "847"
         },
         {
           "Name": "Content-Type",
@@ -1815,11 +1770,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ukwoC+Zyc1pFf+auACc7Bs2pqjvDigvecxO4430gtGk=\""
+          "Value": "\"UFVtevAHy6erQxOPN5pE5QvtzEv7nCRHYsiFF3LuAsk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 04:16:10 GMT"
+          "Value": "Tue, 21 Jan 2025 02:22:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1829,7 +1784,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ukwoC+Zyc1pFf+auACc7Bs2pqjvDigvecxO4430gtGk="
+          "Value": "sha256-UFVtevAHy6erQxOPN5pE5QvtzEv7nCRHYsiFF3LuAsk="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.k7qsr39jw5.js",
+      "AssetFile": "C:\\Panasonic\\Barang\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UFVtevAHy6erQxOPN5pE5QvtzEv7nCRHYsiFF3LuAsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 02:22:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7qsr39jw5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UFVtevAHy6erQxOPN5pE5QvtzEv7nCRHYsiFF3LuAsk="
         }
       ]
     },
