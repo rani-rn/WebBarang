@@ -7,3 +7,36 @@
   white-space: nowrap;
   line-height: 60px;
 }
+#custom-search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 0;
+    width: 300px;
+}
+
+#custom-search-bar .form-control {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 1rem;
+}
+
+#custom-search-bar .btn-go {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#custom-search-bar .btn-go:hover {
+    background-color: gray;
+}

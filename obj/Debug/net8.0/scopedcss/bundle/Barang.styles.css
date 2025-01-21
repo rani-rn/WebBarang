@@ -1,37 +1,4 @@
 /* _content/Barang/Views/Shared/_Layout.cshtml.rz.scp.css */
-html[b-37uokmpla3], body[b-37uokmpla3] {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-#sidebar[b-37uokmpla3] {
-    width: 264px;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #343a40;
-    z-index: 1000;
-    color: white;
-}
-#sidebar-toggle[b-37uokmpla3] {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    z-index: 1050;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
-}
-.content[b-37uokmpla3] {
-    margin-left: 264px;
-    padding: 20px;
-}
-
-.main[b-37uokmpla3] {
-    flex-grow: 1;
-}
 
 .footer[b-37uokmpla3] {
     margin-top: auto;
@@ -40,4 +7,37 @@ html[b-37uokmpla3], body[b-37uokmpla3] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+#custom-search-bar[b-37uokmpla3] {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 0;
+    width: 300px;
+}
+
+#custom-search-bar .form-control[b-37uokmpla3] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 1rem;
+}
+
+#custom-search-bar .btn-go[b-37uokmpla3] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#custom-search-bar .btn-go:hover[b-37uokmpla3] {
+    background-color: gray;
 }

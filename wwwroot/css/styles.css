@@ -30,17 +30,16 @@ h4 {
     color: var(--bs-emphasis-color);
 }
 
-/* Layout for admin dashboard skeleton */
 
 .wrapper {
     align-items: stretch;
     display: flex;
     width: 100%;
+    
 }
 
 #sidebar {
     max-width: 264px;
-    text-decoration: none;
     min-width: 264px;
     background: var(--bs-dark);
     transition: all 0.35s ease-in-out;
@@ -87,6 +86,7 @@ a.sidebar-link {
     color: #e9ecef;
     position: relative;
     display: block;
+    text-decoration: none;
     font-size: 0.875rem;
 }
 
@@ -130,28 +130,11 @@ a.sidebar-link {
     }
 }
 
-.card {
-    box-shadow: 0 0 .875rem 0 rgba(34, 46, 60, .05);
-    margin-bottom: 24px;
-}
-
-.illustration {
-    background-color: var(--bs-primary-bg-subtle);
-    color: var(--bs-emphasis-color);
-}
-
-.illustration-img {
-    max-width: 150px;
-    width: 100%;
-}
-
-/* Sidebar Toggle */
 
 #sidebar.collapsed {
     margin-left: -264px;
 }
 
-/* Footer and Nav */
 
 @media (max-width:767.98px) {
 
@@ -167,35 +150,4 @@ a.sidebar-link {
     footer {
         width: 100vw;
     }
-}
-
-/* Theme Toggler */
-
-.theme-toggle {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-65%);
-    text-align: center;
-    z-index: 10;
-    right: 0;
-    left: auto;
-    border: none;
-    background-color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .theme-toggle .fa-sun,
-html[data-bs-theme="light"] .theme-toggle .fa-moon {
-    cursor: pointer;
-    padding: 10px;
-    display: block;
-    font-size: 1.25rem;
-    color: #FFF;
-}
-
-html[data-bs-theme="dark"] .theme-toggle .fa-moon {
-    display: none;
-}
-
-html[data-bs-theme="light"] .theme-toggle .fa-sun {
-    display: none;
 }
