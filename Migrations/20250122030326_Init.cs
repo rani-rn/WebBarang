@@ -2,27 +2,16 @@
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace Barang.Migrations
 {
     /// <inheritdoc />
-    public partial class newTable : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_Section",
-                table: "Section");
-
-            migrationBuilder.RenameTable(
-                name: "Section",
-                newName: "Sections");
-
-            migrationBuilder.AddPrimaryKey(
-                name: "PK_Sections",
-                table: "Sections",
-                column: "Id");
-
             migrationBuilder.CreateTable(
                 name: "Categories",
                 columns: table => new
@@ -46,11 +35,44 @@ namespace Barang.Migrations
                     ItemName = table.Column<string>(type: "TEXT", nullable: false),
                     ItemStock = table.Column<int>(type: "INTEGER", nullable: false),
                     status = table.Column<bool>(type: "INTEGER", nullable: false),
-                    CategoryId = table.Column<int>(type: "INTEGER", nullable: false)
+                    CategoryId = table.Column<int>(type: "INTEGER", nullable: false),
+                    ImagePath = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Items", x => x.ItemId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Sections",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Sections", x => x.Id);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryId", "CategoryName", "SectionId" },
+                values: new object[] { 1, "Tool", 1 });
+
+            migrationBuilder.InsertData(
+                table: "Sections",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Motor Cashing" },
+                    { 2, "Pump Cashing" },
+                    { 3, "Rotor Assy" },
+                    { 4, "Finishing" },
+                    { 5, "Final Assy" },
+                    { 6, "Stator" },
+                    { 7, "Jet Pump" }
                 });
         }
 
@@ -63,18 +85,8 @@ namespace Barang.Migrations
             migrationBuilder.DropTable(
                 name: "Items");
 
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_Sections",
-                table: "Sections");
-
-            migrationBuilder.RenameTable(
-                name: "Sections",
-                newName: "Section");
-
-            migrationBuilder.AddPrimaryKey(
-                name: "PK_Section",
-                table: "Section",
-                column: "Id");
+            migrationBuilder.DropTable(
+                name: "Sections");
         }
     }
 }

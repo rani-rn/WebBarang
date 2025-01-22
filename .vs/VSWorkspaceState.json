@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Migrations",
     "\\Models",
-    "\\Properties",
     "\\Views",
     "\\Views\\Home",
     "\\Views\\Shared",
     "\\wwwroot",
     "\\wwwroot\\css",
+    "\\wwwroot\\images",
     "\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

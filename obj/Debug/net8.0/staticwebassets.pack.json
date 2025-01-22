@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Panasonic\\Barang\\wwwroot\\images\\Gerinda.jpg",
+      "PackagePath": "staticwebassets\\images\\Gerinda.jpg"
+    },
+    {
       "Id": "C:\\Panasonic\\Barang\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

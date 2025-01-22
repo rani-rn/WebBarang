@@ -26,14 +26,20 @@ namespace Barang.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("SectionIdId")
+                    b.Property<int>("SectionId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("CategoryId");
 
-                    b.HasIndex("SectionIdId");
-
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Tool",
+                            SectionId = 1
+                        });
                 });
 
             modelBuilder.Entity("Barang.Models.Item", b =>
@@ -42,8 +48,12 @@ namespace Barang.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CategoryId1")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("ItemName")
                         .IsRequired()
@@ -56,8 +66,6 @@ namespace Barang.Migrations
                         .HasColumnType("INTEGER");
 
                     b.HasKey("ItemId");
-
-                    b.HasIndex("CategoryId1");
 
                     b.ToTable("Items");
                 });
@@ -75,28 +83,43 @@ namespace Barang.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sections");
-                });
 
-            modelBuilder.Entity("Barang.Models.Category", b =>
-                {
-                    b.HasOne("Barang.Models.Section", "SectionId")
-                        .WithMany()
-                        .HasForeignKey("SectionIdId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("SectionId");
-                });
-
-            modelBuilder.Entity("Barang.Models.Item", b =>
-                {
-                    b.HasOne("Barang.Models.Category", "CategoryId")
-                        .WithMany()
-                        .HasForeignKey("CategoryId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("CategoryId");
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Motor Cashing"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Pump Cashing"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Rotor Assy"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Finishing"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Final Assy"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Stator"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Jet Pump"
+                        });
                 });
 #pragma warning restore 612, 618
         }

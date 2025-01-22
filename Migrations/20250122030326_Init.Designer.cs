@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Barang.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250117080333_newTable")]
-    partial class newTable
+    [Migration("20250122030326_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,6 +35,14 @@ namespace Barang.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Tool",
+                            SectionId = 1
+                        });
                 });
 
             modelBuilder.Entity("Barang.Models.Item", b =>
@@ -45,6 +53,10 @@ namespace Barang.Migrations
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("ItemName")
                         .IsRequired()
@@ -74,6 +86,43 @@ namespace Barang.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sections");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Motor Cashing"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Pump Cashing"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Rotor Assy"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Finishing"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Final Assy"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Stator"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Jet Pump"
+                        });
                 });
 #pragma warning restore 612, 618
         }
