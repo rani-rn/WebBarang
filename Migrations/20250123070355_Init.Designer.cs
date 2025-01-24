@@ -3,6 +3,7 @@ using System;
 using Barang.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,18 +11,20 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Barang.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250123070355_Init")]
+    partial class Init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
 
             modelBuilder.Entity("Barang.Models.Category", b =>
                 {
-                    b.Property<Guid>("CategoryId")
+                    b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("CategoryName")
                         .HasColumnType("TEXT");
@@ -29,12 +32,9 @@ namespace Barang.Migrations
                     b.Property<int?>("SectionId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<Guid?>("SectionId1")
-                        .HasColumnType("TEXT");
-
                     b.HasKey("CategoryId");
 
-                    b.HasIndex("SectionId1");
+                    b.HasIndex("SectionId");
 
                     b.ToTable("Categories");
                 });
@@ -45,8 +45,8 @@ namespace Barang.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid?>("CategoryId")
-                        .HasColumnType("TEXT");
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("ImagePath")
                         .HasColumnType("TEXT");
@@ -60,8 +60,8 @@ namespace Barang.Migrations
                     b.Property<int?>("ItemStock")
                         .HasColumnType("INTEGER");
 
-                    b.Property<Guid?>("SectionId")
-                        .HasColumnType("TEXT");
+                    b.Property<int?>("SectionId")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("ItemId");
 
@@ -74,9 +74,9 @@ namespace Barang.Migrations
 
             modelBuilder.Entity("Barang.Models.Section", b =>
                 {
-                    b.Property<Guid>("SectionId")
+                    b.Property<int>("SectionId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("SectionName")
                         .HasColumnType("TEXT");
@@ -90,7 +90,7 @@ namespace Barang.Migrations
                 {
                     b.HasOne("Barang.Models.Section", "Section")
                         .WithMany("Categories")
-                        .HasForeignKey("SectionId1");
+                        .HasForeignKey("SectionId");
 
                     b.Navigation("Section");
                 });

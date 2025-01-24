@@ -6,9 +6,9 @@ namespace Barang.Models
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Section> Section { get; set; }
-        public DbSet<Category> Category { get; set; }
-        public DbSet<Item> Item { get; set; }
+        public DbSet<Section> Sections { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Item> Items { get; set; }
 
 
     }

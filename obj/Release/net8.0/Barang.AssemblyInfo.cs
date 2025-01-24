@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Barang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a042f0769c392f3433d4c7039a06a2fcc19ef22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c014cbd61052d46854ee1e5ee1844f5e6c4277ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Barang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Barang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

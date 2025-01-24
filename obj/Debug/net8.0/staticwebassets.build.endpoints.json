@@ -331,51 +331,6 @@
       ]
     },
     {
-      "Route": "js/site.583x528ery.js",
-      "AssetFile": "js/site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "370"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"awTQGfUPVryfm2HxuflDZm4V8Jw8iQXkNuL1e3jDFDg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 06:03:21 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "583x528ery"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-awTQGfUPVryfm2HxuflDZm4V8Jw8iQXkNuL1e3jDFDg="
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        }
-      ]
-    },
-    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js",
       "Selectors": [],
@@ -390,7 +345,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "370"
+          "Value": "1553"
         },
         {
           "Name": "Content-Type",
@@ -398,17 +353,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"awTQGfUPVryfm2HxuflDZm4V8Jw8iQXkNuL1e3jDFDg=\""
+          "Value": "\"u+Ok2LdYVnLe0qIWwT/qwsZgej2TWFZm2CV68sdhMn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 06:03:21 GMT"
+          "Value": "Fri, 24 Jan 2025 03:45:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-awTQGfUPVryfm2HxuflDZm4V8Jw8iQXkNuL1e3jDFDg="
+          "Value": "sha256-u+Ok2LdYVnLe0qIWwT/qwsZgej2TWFZm2CV68sdhMn8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.tufkvwhart.js",
+      "AssetFile": "js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u+Ok2LdYVnLe0qIWwT/qwsZgej2TWFZm2CV68sdhMn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 03:45:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tufkvwhart"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u+Ok2LdYVnLe0qIWwT/qwsZgej2TWFZm2CV68sdhMn8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
         }
       ]
     },

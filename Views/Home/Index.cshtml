@@ -1,45 +1,42 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model List<Barang.Models.CardViewModel>
 
-    var cards = new List<CardViewModel>
-    {
-        new CardViewModel
-        {
-            Title = "Gerinda",
-            ImageUrl = "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
-            ImageAltText = "Gerinda",
-            Category = "Tool",
-        },
-        new CardViewModel
-        {
-            Title = "Gerinda",
-            BadgeText = "Sold",
-            ImageUrl = "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
-            ImageAltText = "Gerinda",
-            Category = "Tool",
-        },
-        new CardViewModel
-        {
-            Title = "Pipa",
-            ImageUrl = "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
-            ImageAltText = "Gerinda",
-            Category = "Tool",
-        },
-        
-    };
-}
-
-<section>
-    <div class="container-fluid">
-        <form class="form-inline  d-flex justify-content-center align-items-center">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-go" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form></br>
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            @foreach (var card in cards)
+    <section>
+        <div class="container-fluid">
+            <form class="form-inline d-flex justify-content-center align-items-center">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-go" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <br />
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                @foreach (var card in Model)
             {
-                @Html.Partial("_CardItem", card)
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        @if (!string.IsNullOrEmpty(card.BadgeText))
+                        {
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            @card.BadgeText
+                        </div>
+                        }
+                        <img class="card-img-top" src="@card.ImageUrl" alt="@card.ImageAltText" />
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="fw-bolder">@card.Title</h5>
+                                @if (!string.IsNullOrEmpty(card.Category))
+                                {
+                                <p>@card.Category</p>
+                                }
+                            </div>
+                        </div>
+                        <!-- View Details Link -->
+                        <div class="card-footer text-center">
+                            <a href="@Url.Action("Details", "Home", new { itemId = card.ItemId.ToString() })" class="btn btn-primary">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
             }
+            </div>
         </div>
-    </div>
-</section>
+    </section>
